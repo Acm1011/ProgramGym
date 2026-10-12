@@ -5,6 +5,7 @@
   <p>
     <a href="https://arxiv.org/abs/2610.13395"><img src="https://img.shields.io/badge/arXiv-2610.13395-b31b1b.svg" alt="arXiv paper"></a>
     <a href="https://programgym.github.io/"><img src="https://img.shields.io/badge/Project-Website-2563eb" alt="Project website"></a>
+    <a href="https://huggingface.co/datasets/ProgramGym/programgym-1648"><img src="https://img.shields.io/badge/🤗-Dataset%20%7C%201%2C648%20tasks-ffd21e" alt="ProgramGym-1648 dataset"></a>
     <a href="https://huggingface.co/ProgramGym"><img src="https://img.shields.io/badge/🤗-Hugging_Face-ffd21e" alt="Hugging Face"></a>
   </p>
   <p><b>1,648 verifiable environments · 4 programming languages · From exploration to implementation</b></p>
@@ -34,6 +35,7 @@ This repository is the information hub for ProgramGym, with research highlights,
 | :--- | :--- |
 | [Paper](https://arxiv.org/abs/2610.13395) | Method, experimental protocol, results, and analysis |
 | [Project website](https://programgym.github.io/) | Visual walkthrough of ProgramGym and its findings |
+| [ProgramGym-1648 dataset](https://huggingface.co/datasets/ProgramGym/programgym-1648) | 1,648 program reproduction tasks constructed using the Program-Env pipeline |
 | [Hugging Face](https://huggingface.co/ProgramGym) | ProgramGym organization and resource updates |
 
 ## Introduction
@@ -65,6 +67,8 @@ Construction can use source code and program analysis. The reproduction agent re
 
 ### Environment collection
 
+Using the **Program-Env pipeline**, we constructed **1,648 program reproduction tasks**, available in the [**ProgramGym-1648 dataset** on Hugging Face](https://huggingface.co/datasets/ProgramGym/programgym-1648). The tasks span four programming languages:
+
 | Language | Environments |
 | :--- | ---: |
 | Go | 818 |
@@ -90,7 +94,7 @@ The collection spans **eight functional categories**. Test construction covers a
 
 ## Performance
 
-Results below are from **Table 2 of the [paper, v1](https://arxiv.org/abs/2610.13395v1)** on ProgramBench. **Tests Passed** is the macro-average of per-task test pass rates. Program-Agent uses up to **five implementation rounds**.
+**Tests Passed** is the macro-average of per-task test pass rates. Program-Agent uses up to **five implementation rounds**.
 
 | Model | Agent scaffold | Tests Passed (%) ↑ |
 | :--- | :--- | ---: |
@@ -110,12 +114,14 @@ These scores measure test pass rates, not the percentage of fully reproduced pro
 If you find ProgramGym useful in your research, please cite our paper:
 
 ```bibtex
-@article{yang2026programgym,
-  title={ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents},
-  author={Yang, Chengyi and Bao, Renxu and Hou, Jue and Teng, Zongpei and Wang, Ziheng and Lin, Yujie and Huang, Chengsong and Zhu, Junnan and Qiu, Delai and Wang, Yining and Liu, Shengping and Long, Fei and Su, Jinsong},
-  journal={arXiv preprint arXiv:2610.13395},
-  year={2026},
-  url={https://arxiv.org/abs/2610.13395}
+@misc{yang2026programgymscalingtrainingenvironments,
+      title={ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents},
+      author={Chengyi Yang and Renxu Bao and Jue Hou and Zongpei Teng and Ziheng Wang and Yujie Lin and Chengsong Huang and Junnan Zhu and Delai Qiu and Yining Wang and Shengping Liu and Fei Long and Jinsong Su},
+      year={2026},
+      eprint={2610.13395},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2610.13395},
 }
 ```
 
