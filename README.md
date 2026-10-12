@@ -114,7 +114,7 @@ These scores measure test pass rates, not the percentage of fully reproduced pro
 If you find ProgramGym useful in your research, please cite our paper:
 
 ```bibtex
-@misc{yang2026programgymscalingtrainingenvironments,
+@misc{yang2026programgym,
       title={ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents},
       author={Chengyi Yang and Renxu Bao and Jue Hou and Zongpei Teng and Ziheng Wang and Yujie Lin and Chengsong Huang and Junnan Zhu and Delai Qiu and Yining Wang and Shengping Liu and Fei Long and Jinsong Su},
       year={2026},
