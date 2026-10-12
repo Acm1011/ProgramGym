@@ -1,0 +1,30 @@
+[
+  {
+    "asset": "logo.png",
+    "source": "svg-icon/programGym.pdf",
+    "source_sha256": "f0a5bc45cb92a6eeaeafb6007643bcf617e407023b5fab7d3fd98453a4204005",
+    "page": 1,
+    "width": 600
+  },
+  {
+    "asset": "overview.png",
+    "source": "images/motivation.pdf",
+    "source_sha256": "134ef3542c2e982d4ef14e96708c5e286ba936056311d42e0c2b0d448377218d",
+    "page": 1,
+    "width": 2000
+  },
+  {
+    "asset": "program-env.png",
+    "source": "images/main_fig3.pdf",
+    "source_sha256": "70d1b096047ff8c0d0b55fcecc9900bcdb2975113101914b8468446d5df4027b",
+    "page": 1,
+    "width": 2000
+  },
+  {
+    "asset": "program-agent.png",
+    "source": "images/PBAgent.pdf",
+    "source_sha256": "09eaf9001bfc72342397b01037478ff1008a8116d3f96c58bc8b57ff904c043f",
+    "page": 1,
+    "width": 1500
+  }
+]

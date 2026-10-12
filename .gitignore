@@ -1,0 +1,8 @@
+# Local reference paper; readers use the public arXiv link.
+*.pdf
+/docs/MAINTAINING.md
+
+# Local editor and OS files.
+.DS_Store
+Thumbs.db
+*.swp
